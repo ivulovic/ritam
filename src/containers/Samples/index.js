@@ -1,11 +1,11 @@
 import { useEffect, useRef } from 'react';
-import PageHeader from "components/PageHeader";
 import { useRouteMatch } from "react-router-dom";
 import { playRhythm } from 'utils/rhythm';
 import { withRouter } from 'react-router-dom'
+import PageHeader from "components/PageHeader";
+import VolumeControl from './VolumeControl';
 
 import './styles.scss';
-import VolumeControl from 'containers/Shared/VolumeControl';
 
 function BeatsPage({ history }) {
   const ref = useRef();

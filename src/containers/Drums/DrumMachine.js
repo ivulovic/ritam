@@ -1,5 +1,6 @@
-import VolumeControl from "containers/Shared/VolumeControl";
-import DrumKeyboard from "containers/Shared/DrumKeyboard";
+import VolumeControl from "./VolumeControl";
+import DrumKeyboard from "./DrumKeyboard";
+import SamplePlayer from "./SamplePlayer";
 
 function DrumMachine() {
   return (
@@ -8,6 +9,7 @@ function DrumMachine() {
       <div id="controls">
         <VolumeControl />
       </div>
+      <SamplePlayer />
     </div>
   );
 }
